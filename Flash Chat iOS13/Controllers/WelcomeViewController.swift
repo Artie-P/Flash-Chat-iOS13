@@ -15,7 +15,7 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Titlelabel text animation
+        // Titlelabel text animation example
         titleLabel.text = ""
         var charIndex = 0.0
         let titleText = "⚡️FlashChat"
@@ -25,6 +25,7 @@ class WelcomeViewController: UIViewController {
             }
             charIndex += 1
         }
+        
     }
     
 
